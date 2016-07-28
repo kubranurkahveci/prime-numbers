@@ -12,6 +12,7 @@
 
 #include "prime.h"
 
+// Comment 1
 int main(void) {
 	int number = 0;
 	printf("Enter a number:");

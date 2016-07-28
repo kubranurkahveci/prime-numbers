@@ -7,7 +7,7 @@
 
 
 #include "prime.h"
-
+// Comment 2
 // Definitions
 
 int is_prime(int x)
