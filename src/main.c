@@ -13,15 +13,15 @@
 #include "prime.h"
 
 int main(void) {
-	int number = 0;
-	printf("Enter a number:");
-	scanf("%d", &number);
-
-	if (is_prime(number)) {
-		printf("%d is a prime number.\n", number);
-	} else {
-		printf("%d is not a prime number.\n", number);
-	}
-
+	int number1, number2, i;
+	printf("Enter first number:");
+	scanf("%d", &number1);
+    printf("enter second number :");
+    scanf("%d", &number2);
+    for(i = number1; i <= number2; i++) {
+    	if (is_prime(i)) {
+    		printf("%d\n", i);
+    	}
+    }
 	return 0;
 }
