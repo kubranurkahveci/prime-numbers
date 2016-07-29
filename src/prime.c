@@ -7,7 +7,7 @@
 
 
 #include "prime.h"
-
+//sdfghjk
 int is_prime(int x)
 {
 	int i;
